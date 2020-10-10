@@ -1,0 +1,76 @@
+		___________________________________ 
+
+		Test time: Thu Oct 08 2020 17:51:05 GMT+0300 (Eastern European Summer Time) 
+
+		Test parameters initData: {"firstCoin":"LTC","secondCoin":"BTC","intervalCandles":"5m","quantityCandles":500,"minLimitSignalMACD":0.00002,"interestRate":0.2,"testDayHistoryCandles":30,"testValueFirstCoinOnWallet":2.5,"testValueSecondCoinOnWallet":0.01,"pair":"LTCBTC"} 
+
+		TotalResults coins: LTC 2.09754 
+
+		TotalResults coins: BTC 0.01466 
+
+		Interest income: 30.51% 
+
+		___________________________________ 
+
+	
+
+		___________________________________ 
+
+		Test time: Thu Oct 08 2020 22:27:21 GMT+0300 (Eastern European Summer Time) 
+
+		Test parameters initData: {"firstCoin":"LTC","secondCoin":"USDT","intervalCandles":"5m","quantityCandles":500,"minLimitSignalMACD":0.2,"interestRate":0.2,"testDayHistoryCandles":30,"testValueFirstCoinOnWallet":2.5,"testValueSecondCoinOnWallet":100,"pair":"LTCUSDT"} 
+
+		TotalResults coins: LTC 2.14476 
+
+		TotalResults coins: USDT 146.28180 
+
+		Interest income: 32.07% 
+
+		___________________________________ 
+
+	
+	___________________________________ 
+
+	Test time: Sat Oct 10 2020 03:40:10 GMT+0300 (Eastern European Summer Time) 
+
+	Test parameters initData: {"firstCoin":"LTC","secondCoin":"BTC","intervalCandles":"5m","quantityCandles":500,"interestRate":0.2,"minLimitSignalMACD":0.00002,"fastPeriodMACD":24,"slowPeriodMACD":52,"testDayHistoryCandles":30,"testValueFirstCoinOnWallet":2.5,"testValueSecondCoinOnWallet":0.017,"pair":"LTCBTC"} 
+
+	TotalResults coins: LTC 2.05867 
+
+	TotalResults coins: BTC 0.02181 
+
+	Interest income: 10.61% 
+
+	___________________________________ 
+
+	
+	___________________________________ 
+
+	Test time: Sat Oct 10 2020 03:59:12 GMT+0300 (Eastern European Summer Time) 
+
+	Test parameters initData: {"firstCoin":"LTC","secondCoin":"BTC","intervalCandles":"5m","quantityCandles":500,"interestRate":0.2,"minLimitSignalMACD":0.00002,"fastPeriodMACD":36,"slowPeriodMACD":75,"testDayHistoryCandles":30,"testValueFirstCoinOnWallet":2.5,"testValueSecondCoinOnWallet":0.017,"pair":"LTCBTC"} 
+
+	TotalResults coins: LTC 2.03528 
+
+	TotalResults coins: BTC 0.02130 
+
+	Interest income: 6.70% 
+
+	___________________________________ 
+
+	
+	___________________________________ 
+
+	Test time: Sat Oct 10 2020 03:59:48 GMT+0300 (Eastern European Summer Time) 
+
+	Test parameters initData: {"firstCoin":"LTC","secondCoin":"BTC","intervalCandles":"5m","quantityCandles":500,"interestRate":0.2,"minLimitSignalMACD":0.00002,"fastPeriodMACD":12,"slowPeriodMACD":24,"testDayHistoryCandles":30,"testValueFirstCoinOnWallet":2.5,"testValueSecondCoinOnWallet":0.017,"pair":"LTCBTC"} 
+
+	TotalResults coins: LTC 1.02000 
+
+	TotalResults coins: BTC 0.03050 
+
+	Interest income: 20.19% 
+
+	___________________________________ 
+
+	
