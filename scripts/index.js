@@ -32,6 +32,3 @@ setTimeout(() => {
 	mainCycle();
 	setInterval(() => {mainCycle();}, timeInterval.timeOneCandleMiliseconds);
 }, timeInterval.timeFirstStart);
-
-
-// __________
