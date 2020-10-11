@@ -2,7 +2,7 @@
 
 const binance = require('../connectToExchange');
 
-
+// можно не создавать скоуп ф-и, если ничего кроме return нет
 const getBalanceCoin = (coin) => {
 	return new Promise(resolve => {
 		binance.balance((error, balances) => {

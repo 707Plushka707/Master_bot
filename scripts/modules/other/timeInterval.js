@@ -4,6 +4,7 @@ const initData = require('../initData');
 
 const dateNow = new Date().getTime();    
 const timeOneCandleNum = parseFloat(initData.intervalCandles);
+// имена переменых пиши с маленькой буквы, если это константы, то MILISECONS_IN_ONE_MINUT
 const MiliseconsInOneMinut = 1000 * 60;
 const MiliseconsInOneHour = 1000 * 60 * 60;
 const MiliseconsInOneDay = 1000 * 60 * 60 * 24;

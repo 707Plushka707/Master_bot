@@ -9,6 +9,7 @@ const { buy, sell } = require('../workWithExchange/getDataFromServer/MarketBuySe
 
 async function placeOrder(signal) {
 	let price = await getPrice();
+	// деструктуризация, кстати, ее можно делать на уровне require
 	const interestRate = initData.interestRate; /*Процент ставки  */
 
 	/* Средства, которые на данный момент выполнились в сделке  */
@@ -19,6 +20,7 @@ async function placeOrder(signal) {
 	let quantityFirstCoinInWallet = await getBalance(initData.firstCoin);
 	let quantitySecondCoinInWallet = await getBalance(initData.secondCoin);
 
+	// лучше используй строгое равеноство
 	if (signal == 'short') {
 		console.log("short", price);
 

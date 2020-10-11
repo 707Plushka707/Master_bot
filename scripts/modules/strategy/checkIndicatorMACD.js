@@ -1,5 +1,5 @@
 'use strict';
-
+// убирай лишние переносы и так по всему коду
 const initData = require('../initData');
 
 const upperLimitMACD = initData.minLimitSignalMACD;
@@ -8,6 +8,7 @@ const lowerLimitMACD = -upperLimitMACD;
 function checkSignalIndicatorMACD(valuesIndicatorMACD) {
     const fastValue = valuesIndicatorMACD.outMACD;
     const slowValue = valuesIndicatorMACD.outMACDSignal;
+    // если ты не планируешь изменять переменую, используй const и так по всему коду
     let i = fastValue.length - 1;
 
     if (fastValue[i - 1] > upperLimitMACD && slowValue[i - 1] > upperLimitMACD && 

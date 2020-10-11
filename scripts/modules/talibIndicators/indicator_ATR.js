@@ -18,6 +18,7 @@ const talib = require('../../../node_modules/talib/build/Release/obj.target/tali
 
 // module.exports = getValuesIndicatorATR;
 
+// const, в идеале откажить от использования var
 var functionDesc = talib.explain("ATR");
 console.dir(functionDesc);
 
